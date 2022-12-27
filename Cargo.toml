@@ -1,11 +1,11 @@
 [package]
-name = "imgui-opengl-renderer"
+name = "imgui-opengl"
 description = "An OpenGL renderer for imgui-rs"
-version = "0.11.1"
-authors = ["Michael Fairley <michael@michaelfairley.com>"]
+version = "0.1.0"
+authors = ["Michael Fairley <michael@michaelfairley.com>, Jakobzs <31919330+Jakobzs@users.noreply.github.com>"]
 build = "build.rs"
-homepage = "https://github.com/michaelfairley/rust-imgui-opengl-renderer"
-repository = "https://github.com/michaelfairley/rust-imgui-opengl-renderer"
+homepage = "https://github.com/jakobzs/rust-imgui-opengl-renderer"
+repository = "https://github.com/jakobzs/rust-imgui-opengl-renderer"
 readme = "README.md"
 categories = ["gui", "rendering::graphics-api"]
 license = "MIT/Apache-2.0"

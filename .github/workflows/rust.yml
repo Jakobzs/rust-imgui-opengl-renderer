@@ -1,19 +1,11 @@
-language: rust
-rust:
-  - stable
-  - beta
-  - nightly
+name: Rust
+on: [push, pull_request]
 
-cache:
-  directories:
-  - SDL2-2.0.8
-
-before_install:
-  - wget https://www.libsdl.org/release/SDL2-2.0.8.tar.gz -O SDL2-2.0.8.tar.gz
-  - tar -xzvf SDL2-2.0.8.tar.gz
-install:
-  - (cd SDL2-2.0.8 && ./configure && make && sudo make install)
-
-script:
-  - cargo build --all-targets --verbose
-  - cargo test --verbose
+jobs:
+  test:
+    name: cargo test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo test --all-features

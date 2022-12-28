@@ -1,4 +1,4 @@
-# imgui-opengl-renderer
+# imgui-opengl
 
 [![Build Status](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer.svg?branch=master)](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer)
 [![Documentation](https://docs.rs/imgui-opengl-renderer/badge.svg)](https://docs.rs/imgui-opengl-renderer)

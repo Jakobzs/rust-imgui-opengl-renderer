@@ -1,8 +1,5 @@
-# imgui-opengl
-
-[![Build Status](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer.svg?branch=master)](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer)
-[![Documentation](https://docs.rs/imgui-opengl-renderer/badge.svg)](https://docs.rs/imgui-opengl-renderer)
-[![Version](https://img.shields.io/crates/v/imgui-opengl-renderer.svg)](https://crates.io/crates/imgui-opengl-renderer)
+# imgui-opengl [![Build Status](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer.svg?branch=master)](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer) [![Documentation](https://docs.rs/imgui-opengl/badge.svg)](https://docs.rs/imgui-opengl)
+[![Version](https://img.shields.io/crates/v/imgui-opengl.svg)](https://crates.io/crates/imgui-opengl)
 
 OpenGL (3+) rendering for [imgui-rs](https://github.com/Gekkio/imgui-rs)
 

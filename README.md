@@ -1,4 +1,5 @@
-# imgui-opengl [![GitHub CI](https://github.com/Jakobzs/rust-imgui-opengl-renderer/actions/workflows/rust.yml/badge.svg)](https://github.com/Jakobzs/rust-imgui-opengl-renderer/actions/workflows/rust.yml) [![Documentation](https://docs.rs/imgui-opengl/badge.svg)](https://docs.rs/imgui-opengl) [![Version](https://img.shields.io/crates/v/imgui-opengl.svg)](https://crates.io/crates/imgui-opengl)
+# imgui-opengl
+[![GitHub CI](https://github.com/Jakobzs/rust-imgui-opengl-renderer/actions/workflows/rust.yml/badge.svg)](https://github.com/Jakobzs/rust-imgui-opengl-renderer/actions/workflows/rust.yml) [![Documentation](https://docs.rs/imgui-opengl/badge.svg)](https://docs.rs/imgui-opengl) [![Version](https://img.shields.io/crates/v/imgui-opengl.svg)](https://crates.io/crates/imgui-opengl)
 
 OpenGL (3+) rendering for [imgui-rs](https://github.com/Gekkio/imgui-rs)
 
